@@ -1,0 +1,64 @@
+@media only screen and (max-width: 650px) {
+
+
+
+      /*.slide-container {
+         padding-top: 150px !important;
+         padding-bottom: 150px !important;
+           height: auto !important;
+           aspect-ratio: 7 / 5;
+       }*/
+
+      .slide-small-header{
+         text-transform: uppercase;
+         font-size: 2em !important;
+      }
+
+    .slide-main-header{
+      text-transform: uppercase;
+      font-size: 3em !important;
+      color:red;
+    }
+
+    .slide-description{
+      font-size: 1.5em !important;
+    }
+
+    .astonbike-category-content {
+      padding-top: 12px;
+    }
+
+    .astonbike-category-content h3 {
+      font-size: 16px;
+    }
+
+    .astonbike-category-content span {
+      font-size: 10px;
+    }
+
+    .astonbike-category-arrow {
+      width: 36px;
+      height: 36px;
+      right: 12px;
+      bottom: 12px;
+    }
+
+    .product-filter-header {
+           display: block !important;
+       }
+
+       .product-section-heading {
+           margin-bottom: 20px;
+       }
+
+       .product-filter-header .sort-source {
+           justify-content: flex-start !important;
+           flex-wrap: wrap;
+       }
+
+
+       .products .isotope-item{
+          width: 50% !important;
+       }
+
+}
