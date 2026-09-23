@@ -1,0 +1,50 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Composer
+vendor/
+
+
+# WordPress config
+wp-config.php
+
+
+# Environment files
+.env
+.env.local
+*.local.php
+
+# Logs
+*.log
+
+# WordPress core directories
+wp-admin/
+wp-includes/
+
+# WP uploads (large files should not be in Git)
+wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/backups/
+wp-content/advanced-cache.php
+
+# Ignore common backup files
+*.sql
+*.tar
+*.zip
+
+# Ignore SASS cache
+.sass-cache/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Allow custom theme & plugin tracking (keep these NOT ignored)
+!wp-content/themes/
+!wp-content/plugins/
