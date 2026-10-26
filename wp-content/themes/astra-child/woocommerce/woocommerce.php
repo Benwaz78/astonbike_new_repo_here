@@ -8,10 +8,16 @@ if ( ! defined( 'ABSPATH' ) ) {
  * WooCommerce Files
  */
 
-require_once get_stylesheet_directory() . '/woocommerce/merchandising/product-flags.php';
-require_once get_stylesheet_directory() . '/woocommerce/merchandising/product-queries.php';
-require_once get_stylesheet_directory() . '/woocommerce/merchandising/archive-filters.php';
-require_once get_stylesheet_directory() . '/woocommerce/merchandising/template-functions.php';
+
 
 require_once get_stylesheet_directory() . '/woocommerce/product-video/enqueue.php';
 require_once get_stylesheet_directory() . '/woocommerce/product-video/product-video.php';
+
+require_once get_stylesheet_directory() . '/woocommerce/products/product.php';
+require_once get_stylesheet_directory() . '/woocommerce/products/enqueue.php';
+
+require_once get_stylesheet_directory() . '/woocommerce/merchandising/merchandising.php';
+require_once get_stylesheet_directory() . '/woocommerce/filters/filters.php';
+require_once get_stylesheet_directory() . '/woocommerce/quick-view-endpoint/enqueue.php';
+require_once get_stylesheet_directory() . '/woocommerce/cart-endpoints/cart-bootstrap.php';
+require_once get_stylesheet_directory() . '/woocommerce/quick-view-endpoint/quick-view.php';

@@ -14,6 +14,9 @@ function general_theme_setup() {
         'footer'  => __( 'Footer Menu', 'brightangel' ),
     ) );
 
+   
+    wp_dequeue_style( 'astra-theme-css' );
+	wp_deregister_style( 'astra-theme-css' );
     add_theme_support( 'title-tag' );
     add_theme_support( 'post-thumbnails' );
     add_theme_support( 'woocommerce' );
@@ -25,30 +28,5 @@ function general_theme_setup() {
 
 }
 
-/**
- * Change standard post URLs to /blog/post-name/
- */
-function veksra_post_permalink( $post_link, $post ) {
-
-    if ( 'post' === $post->post_type && 'publish' === $post->post_status ) {
-        return home_url( '/blog/' . $post->post_name . '/' );
-    }
-
-    return $post_link;
-}
-add_filter( 'post_link', 'veksra_post_permalink', 10, 2 );
 
 
-/**
- * Make /blog/post-name/ load the correct post.
- */
-function veksra_blog_post_rewrite() {
-
-    add_rewrite_rule(
-        '^blog/([^/]+)/?$',
-        'index.php?name=$matches[1]',
-        'top'
-    );
-
-}
-add_action( 'init', 'veksra_blog_post_rewrite' );

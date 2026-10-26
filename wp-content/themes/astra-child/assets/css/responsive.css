@@ -1,0 +1,150 @@
+@media only screen and (max-width: 650px) {
+
+
+
+      /*.slide-container {
+         padding-top: 150px !important;
+         padding-bottom: 150px !important;
+           height: auto !important;
+           aspect-ratio: 7 / 5;
+       }*/
+
+      .slide-small-header{
+         text-transform: uppercase;
+         font-size: 2em !important;
+      }
+
+    .slide-main-header{
+      text-transform: uppercase;
+      font-size: 3em !important;
+      color:red;
+    }
+
+    .slide-description{
+      font-size: 1.5em !important;
+    }
+
+    .astonbike-instagram-item {
+      aspect-ratio: 1 / 1;
+    }
+
+    .complete-ride-content h3 {
+      font-size: 16px !important;
+    }
+
+    .complete-ride-content p {
+      font-size: 12px !important;
+    }
+
+    .complete-ride-content span {
+      font-size: 11px !important;
+    }
+
+
+    .astonbike-category-content {
+      padding-top: 12px;
+    }
+
+    .astonbike-category-content h3 {
+      font-size: 16px;
+    }
+
+    .astonbike-category-content span {
+      font-size: 10px;
+    }
+
+    .astonbike-category-arrow {
+      width: 36px;
+      height: 36px;
+      right: 12px;
+      bottom: 12px;
+    }
+
+    .product-filter-header {
+           display: block !important;
+       }
+
+       .product-section-heading {
+           margin-bottom: 20px;
+       }
+
+       .product-filter-header .sort-source {
+           justify-content: flex-start !important;
+           flex-wrap: wrap;
+       }
+
+
+
+
+       .products .isotope-item{
+          width: 50% !important;
+       }
+
+       .bike-category-image {
+           height: 300px;
+       }
+
+       .bike-category-content {
+           left: 20px;
+           right: 20px;
+           bottom: 20px;
+       }
+
+       .bike-category-content h3 {
+           font-size: 23px;
+       }
+
+       .contact-form-box {
+           padding: 25px 20px;
+       }
+
+       .contact-section {
+           padding-top: 50px;
+           padding-bottom: 50px;
+       }
+
+       .contact-socials .social-link {
+           width: 40px;
+           height: 40px;
+       }
+
+
+       .page-content-box {
+           font-size: 15px;
+           line-height: 1.7;
+       }
+
+       .page-content-box h2 {
+           font-size: 22px;
+           margin-top: 32px;
+       }
+
+       .page-content-box h3 {
+           font-size: 19px;
+           margin-top: 25px;
+       }
+
+       .page-content-box h4 {
+           font-size: 17px;
+       }
+
+       .page-content-box ul,
+       .page-content-box ol {
+           padding-left: 22px;
+       }
+
+       .page-content-box blockquote {
+           padding: 15px 18px;
+       }
+
+       .page-content-box .alignleft,
+       .page-content-box .alignright {
+           float: none;
+           display: block;
+           margin: 0 auto 20px;
+       }
+
+
+}
+
+

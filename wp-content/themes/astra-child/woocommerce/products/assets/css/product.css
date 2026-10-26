@@ -1,0 +1,25 @@
+
+.product-attributes .variation-option {
+    margin-right: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.product-attributes .variation-option.is-selected {
+    background-color: #212529;
+    border-color: #212529;
+    color: #fff;
+}
+
+.product-attributes .variation-option.is-unavailable {
+    opacity: 0.4;
+    text-decoration: line-through;
+}
+
+.product-attributes .variation-option:disabled {
+    cursor: not-allowed;
+}
+
+.product-attributes .selected-attribute-value {
+    font-weight: 400;
+}
+
